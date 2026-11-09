@@ -93,17 +93,3 @@ The original project's save format is supported: plaintext account passwords are
 | Monster and Skill inheritance | Base classes and subclasses in `monster.py` / `skill.py` |
 | Resume important progress | Stats, items, skills, coordinates, quests, cleared encounters, victory |
 | Input validation/error handling | Invalid commands/indices rejected, save/load errors reported, interrupts handled |
-
-## Files and assessment preparation
-
-Read **STUDY_GUIDE.md** for the program design, TinyDB format, registration/login flow, inheritance, quest tracking, and combat logic. Read **WALKTHROUGH.md** for a recording route and submission steps.
-
-Run the automated checks:
-
-```bash
-uv run python -m unittest -v
-```
-
-The tests use temporary saves and cover login/password verification, save/restore, both map connections and reachable objectives, invalid menu inputs, combat cooldowns, death recovery, and a complete quest-to-boss playthrough. The full-playthrough test fixes combat randomness to ordinary attacks for repeatability; gameplay still includes random enemy special attacks.
-
-Do not commit your personal save file or `.venv` to GitHub. `.gitignore` excludes them. You still need to record your own beginning-to-end gameplay, upload the project to your GitHub repository, and submit its link as assigned.
