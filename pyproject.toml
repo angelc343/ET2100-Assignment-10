@@ -1,0 +1,9 @@
+[project]
+name = "elden-ring-terminal-rpg"
+version = "1.0.0"
+description = "A beginner-friendly terminal RPG inspired by Elden Ring"
+requires-python = ">=3.10"
+dependencies = [
+    "colorama>=0.4.6",
+    "tinydb>=4.8.0",
+]
